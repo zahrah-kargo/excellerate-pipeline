@@ -3,14 +3,14 @@ FROM golang:1.18
 ENV GOOS=linux
 ENV GOARCH=amd64
 
-RUN mkdir /app
-WORKDIR /app
+RUN mkdir /src
+WORKDIR /src
 
-COPY go.mod /app
-COPY go.sum /app
+COPY go.mod /src
+COPY go.sum /src
 RUN go mod download
 
-COPY * /app
-RUN go build
+COPY * /src
+RUN go build -o /app .
 
-CMD ["./app"]
+CMD ["/app"]
