@@ -27,7 +27,6 @@ Your tasks are to create 2 pipelines that fulfill the following requirements. St
   a. Pipeline should trigger on all pushes to master branch.
   b. Build and tag a docker image of the app. Give the docker image a tag corresponding to the git commit hash.
   c. Push the image to a repository. Either:
-
     - Personal docker hub account (public repository), or
     - (Bonus) kargotech-prod GCR.
 
@@ -35,7 +34,6 @@ Your tasks are to create 2 pipelines that fulfill the following requirements. St
 
   a. Pipeline should trigger on all PR.
   b. Run unit test for selected app
-    
     - Golang: go test
     - Python: pytest
     - Nodejs: npm test (mocha)
