@@ -1,0 +1,11 @@
+---
+name: Run Unit Tests
+
+on: {}
+
+jobs:
+  test:
+    name: Test Application
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2

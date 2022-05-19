@@ -1,0 +1,11 @@
+---
+name: Deploy to Kubernetes
+
+on: {}
+
+jobs:
+  deploy:
+    name: Deploy Application
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2

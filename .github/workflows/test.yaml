@@ -1,0 +1,11 @@
+---
+name: Build Docker Image
+
+on: {}
+
+jobs:
+  deploy:
+    name: Build Application
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
