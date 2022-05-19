@@ -10,7 +10,8 @@ COPY go.mod /src
 COPY go.sum /src
 RUN go mod download
 
-COPY * /src
+COPY . /src
 RUN go build -o /app .
 
+EXPOSE 8080
 CMD ["/app"]
