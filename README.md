@@ -26,13 +26,10 @@ Your tasks are to create 2 pipelines that fulfill the following requirements. St
 * Build
   * Pipeline should trigger on all pushes to master branch.
   * Build and tag a docker image of the app. Give the docker image a tag corresponding to the git commit hash.
-  * Push the image to a repository. Either:
-    * Personal docker hub account (public repository), or
-    * (Bonus) kargotech-prod GCR.
+  * Push the image to a repository. Please use a personal docker hub account (public repository) for this step.
 * Test
   * Pipeline should trigger on all PR.
   * Run unit test for selected app
     * Golang: go test
     * Python: pytest
-    * Nodejs: npm test (mocha)
-  * (Bonus) Get code coverage and store the result on Actions summary 
+    * Nodejs: npm test
