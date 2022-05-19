@@ -33,3 +33,10 @@ Your tasks are to create 2 pipelines that fulfill the following requirements. St
     * Golang: go test
     * Python: pytest
     * Nodejs: npm test
+
+**NOTE** to show pr test pipeline is running properly, perform the following
+
+1. Create a new branch i.e. `pr-test`
+2. Make any change in the `README.md` file
+3. Commit the changes
+4. Open a Pull Request from the new branch `pr-test` to `master`
