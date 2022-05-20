@@ -13,11 +13,11 @@ Before working on this assignment, we suggest fulfilling these pre-requisites to
 - Choose 1 language for your assignment (go/python/nodejs), your pipelines should fulfill both requirements for the selected language
 - Docker hub account (personal)
 - (optional) Work on a unix machine, build environment and examples are made for a unix machine
-- (optional) Install docker
+- (optional) Install docker https://docs.docker.com/engine/install/ubuntu/
 - (optional) Install related language to try relevant commands locally
-  - golang
+  - golang https://go.dev/doc/install
   - python
-  - nodejs
+  - nodejs https://nodejs.org/en/download/package-manager/
 
 ## Tasks
 
