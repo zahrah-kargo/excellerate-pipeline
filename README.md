@@ -11,8 +11,8 @@ Before working on this assignment, we suggest fulfilling these pre-requisites to
 - Create a fork of this repository
 - Enable Github Actions feature in your forked repository `https://github.com/<your-username>/excellerate-pipeline/actions`
 - Choose 1 language for your assignment (go/python/nodejs), your pipelines should fulfill both requirements for the selected language
+- Docker hub account (personal)
 - (optional) Work on a unix machine, build environment and examples are made for a unix machine
-- (optional) Docker hub account (personal)
 - (optional) Install docker
 - (optional) Install related language to try relevant commands locally
   - golang
