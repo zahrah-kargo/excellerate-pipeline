@@ -8,6 +8,10 @@ The requirement details for each pipe will be detailed below.
 
 Before working on this assignment, we suggest fulfilling these pre-requisites to help you on your tasks
 
+- Create a Github account with your @kargo.tech email
+  - Add `-kargo` suffix on your Github account username. For example, if your Kargo email is `ahmad@kargo.tech`, then your Github username will be `ahmad-kargo`
+- Install `git` to your machine, choose your own OS version ([refer here](https://git-scm.com/downloads))
+  - (Optional) if you prefer to use GUIs, see the instructions [here](https://git-scm.com/downloads/guis)
 - Create a fork of this repository
 - Enable Github Actions feature in your forked repository `https://github.com/<your-username>/excellerate-pipeline/actions`
 - Choose 1 language for your assignment (go/python/nodejs), your pipelines should fulfill both requirements for the selected language
