@@ -11,4 +11,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run Testing
-        run: cd go && go test -v
+        run: |
+          cd go
+          go test -v
