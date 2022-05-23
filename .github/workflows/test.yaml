@@ -6,6 +6,8 @@ on:
 
 jobs:
   test:
+    runs-on: ubuntu-latest
+    
     name: Test Application
     steps:
       - name: Checkout code
