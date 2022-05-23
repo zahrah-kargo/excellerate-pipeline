@@ -1,11 +1,28 @@
 ---
-name: Run Unit Tests
+name: Build Docker Image
 
-on: push
+on: 
+  push:
+    branches:
+    - master
 
 jobs:
-  test:
-    name: Test Application
+  deploy:
+    runs-on: ubuntu-latest
+
+    name: Build Application
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.16.0'
+      - name: Install dependencies
+        run: |
+          cd go
+          go mod vendor
+      - name: Run build
+        run: |
+          cd go
+          go build .

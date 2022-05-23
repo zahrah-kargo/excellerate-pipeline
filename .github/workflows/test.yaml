@@ -1,12 +1,18 @@
 ---
-name: Build Docker Image
+name: Run Unit Tests
 
-on: push
+on: 
+  pull_request
 
 jobs:
-  deploy:
-    name: Build Application
+  test:
+    runs-on: ubuntu-latest
+    
+    name: Test Application
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - run: echo Continue here...
+      - name: Run Testing
+        run: |
+          cd go
+          go test -v
