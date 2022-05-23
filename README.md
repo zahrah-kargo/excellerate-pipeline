@@ -44,3 +44,8 @@ Your tasks are to create 2 pipelines that fulfill the following requirements. St
 2. Make any change in the `README.md` file
 3. Commit the changes
 4. Open a Pull Request from the new branch `pr-test` to `master`
+
+## Verification
+
+You can verify the results of your actions configuration by opening the Github Actions tab
+![image](https://user-images.githubusercontent.com/53174255/169791122-441adc69-ec82-40fc-bef7-af6df412dea3.png)
