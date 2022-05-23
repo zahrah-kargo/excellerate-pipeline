@@ -1,6 +1,6 @@
 # Kargo Excellerate CI/CD Assignment
 
-Your assignment for this section is to create 2 Github Actions pipelines. Consider the long term maintainability for the pipelines. In this case, some forms of abstraction may be preferred, such as using a Makefile or Composite Actions.
+My assignment for this section is to create 2 Github Actions pipelines. Consider the long term maintainability for the pipelines. In this case, some forms of abstraction may be preferred, such as using a Makefile or Composite Actions.
 
 The requirement details for each pipe will be detailed below.
 
